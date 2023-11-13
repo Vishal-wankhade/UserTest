@@ -38,7 +38,7 @@ function Login() {
   // Call preFillLoginDetails when the component mounts
   useEffect(() => {
     preFillLoginDetails();
-  }, []);
+  });
 
   // Pre-fill the login form with saved details
   const preFillLoginDetails = () => {
