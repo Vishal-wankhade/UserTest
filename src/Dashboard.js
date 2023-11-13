@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { BiFilterAlt } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
-function dashboard() {
+function Dashboard() {
   
     const [userData, setUserData] = useState([]);
     const [selectedUser, setSelectedUser] = useState(null);
@@ -109,4 +109,4 @@ function dashboard() {
   );
 }
 
-export default dashboard;
+export default Dashboard;
